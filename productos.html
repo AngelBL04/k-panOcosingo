@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Productos</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimun-scale=1">
+	<link rel="stylesheet" href="boostrap/bootstrap.css">
+	<link rel="stylesheet" href="boostrap/productos.css">
+	<link rel="stylesheet" href="boostrap/menuR.css">
+	<link rel="stylesheet" href="boostrap/modal1.css">
+	<link href="https://file.myfontastic.com/bEBhqgK4EyfQKd4hSC4atH/icons.css" rel="stylesheet">
+	
+	
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+<div id="my-page">
+    <div id="my-page">
+    <div id="home"></div>
+    <div class="header">
+      <div class="container">
+        <div class="logo"><a href="index.html"><img src="icon/logo_white.png"></a></div>
+        <div class="menu-container">
+          <div class="menu"><a href="index.html">Inicio</a></div>
+          <div class="menu"><a href="quienes_somos.html" >Quienes somos</a></div>
+          <div class="menu"><a href="productos.html" style="color: #ff8acb; text-decoration-line: underline;">Productos</a></div>
+          <div class="menu"><a href="contacto.html">Contacto</a></div>
+          <div class="menu"><a href="ubicacion.html">Ubicación</a></div>
+        </div>
+        <!-- Segundo menú que sirve para el que se visualizara en dispositivos moviles -->
+         <header class="header-2">
+      <div class="contenedorM">
+        <span class="icon-menu" id="btn-menu"></span>
+        <nav class="nav" id="nav">
+          <ul class="menu2">
+            <li class="menu_item"><a class="menu_link" href="index.html">Inicio</a></li>
+            <li class="menu_item"><a class="menu_link" href="quienes_somos.html">¿Quienes somos?</a></li>
+            <li class="menu_item"><a class="menu_link" href="productos.html">Productos</a></li>
+            <li class="menu_item"><a class="menu_link" href="contacto.html">Contacto</a></li>
+             <li class="menu_item"><a class="menu_link" href="ubicacion.html">Ubicación</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script src="js/menu.js"></script>
+
+
+    <!-- iconos para las redes sociales -->
+        <div class="social-network-container">
+          <a href="https://www.facebook.com/panaderiayreposteriakpan/" target="_blank"><img src="icon/fb_white.png"></a>
+          <a href="https://www.instagram.com/panaderiak_pan/?hl=es-la" target="_blank"><img src="icon/instagram_white.png"></a>
+        </div>
+      </div>
+    </div>
+    <div class="wrap">
+		<h1 style="text-shadow: 5px 3px 2px black;">Bienvenido a nuestra sección de productos</h1>
+		<div class="store-wrapper">
+			<div class="category_list">
+				<a href="#" class="category_item" category="all">Todo</a>
+				<a href="#" class="category_item" category="veganos">Veganos</a>
+				<a href="#" class="category_item" category="tradicionales">Tradicionales</a>
+				<a href="#" class="category_item" category="azucar">Sin azúcar</a>
+				<a href="#" class="category_item" category="saludables">Sin gluten</a>
+			</div>
+			<section class="products-list">
+				<div class="product-item" category="veganos">
+					<img src="imag/veganos/pan_artesano.jpg" alt="" >
+  				<label for="mostrar-modal"><a>Pan artesano</a></label>
+				</div>
+				<div class="product-item" category="tradicionales">
+					<img src="imag/Tradicional/pandemuerto.jpg" alt="" >
+  				<label for="mostrar2"><a>Pan de muerto</a></label>
+				</div>
+				<div class="product-item" category="azucar">
+					<img src="imag/azucar/azucar1.jpg" alt="" >
+				<label for="mostrar3"><a>Pan de mazapán</a></label>
+				</div>
+				<div class="product-item" category="saludables">
+					<img src="imag/gluten/pan_forma.jpg" alt="">
+				<label for="mostrar4"><a>Pan de forma</a></label>
+				</div>
+				<div class="product-item" category="veganos">
+					<img src="imag/veganos/barra de pan.jpg" alt="" >
+				<label for="mostrar5"><a>Barra de pan común</a></label>
+				</div>
+				<div class="product-item" category="tradicionales">
+					<img src="imag/Tradicional/concha.jpg" alt="" >
+				<label for="mostrar6"><a>La Concha</a></label>
+				</div>
+				<div class="product-item" category="azucar">
+					<img src="imag/azucar/PAN DE ARROZ.jpg" alt="" >
+				<label for="mostrar7"><a>Pan dulce de arroz</a></label>
+				</div>
+				<div class="product-item" category="saludables">
+					<img src="imag/gluten/liviano.jpg" alt="" >
+				<label for="mostrar8"><a>Pan liviano</a></label>
+				</div>
+				<div class="product-item" category="veganos">
+					<img src="imag/veganos/bagel.jpg" alt="" >
+				<label for="mostrar9"><a>Bagel</a></label>
+				</div>
+				<div class="product-item" category="tradicionales">
+					<img src="imag/Tradicional/panque-de-nata.jpg" alt="" >
+				<label for="mostrar10"><a>Pan de Nata</a></label>
+				</div>
+				<div class="product-item" category="azucar">
+					<img src="imag/azucar/criollo.jpg" alt="" >
+				<label for="mostrar11"><a>Criollo</a></label>
+				</div>
+				<div class="product-item" category="saludables">
+					<img src="imag/gluten/aireado.jpg" alt="" >
+				<label for="mostrar12"><a>Pan aireado</a></label>
+				</div>
+				<div class="product-item" category="veganos">
+					<img src="imag/veganos/baguette.jpg" alt="" >
+				<label for="mostrar13"><a>Baguette</a></label>
+				</div>
+				<div class="product-item" category="tradicionales">
+					<img src="imag/Tradicional/Besos.jpg" alt="" >
+				<label for="mostrar14"><a>Besos</a></label>
+				</div>
+				<div class="product-item" category="azucar">
+					<img src="imag/azucar/arrollado.jpg" alt="" >
+				<label for="mostrar15"><a>Pan arrollado</a></label>
+				</div>
+				<div class="product-item" category="saludables">
+					<img src="imag/gluten/blinis.jpg" alt="" >
+				<label for="mostrar16"><a>Blinis</a></label>
+				</div>
+				<div class="product-item" category="veganos">
+					<img src="imag/veganos/bangueli.jpg" alt="" >
+				<label for="mostrar17"><a>Bangeli</a></label>
+				</div>
+				<div class="product-item" category="tradicionales">
+					<img src="imag/Tradicional/pan-de-elote.jpg" alt="" >
+				<label for="mostrar18"><a>Pan de elote</a></label>
+				</div>
+				<div class="product-item" category="azucar">
+					<img src="imag/azucar/helado.jpg" alt="" >
+				<label for="mostrar19"><a>Pan relleno de Helado</a></label>
+				</div>
+				<div class="product-item" category="saludables">
+					<img src="imag/gluten/molde.jpg" alt="" >
+				<label for="mostrar20"><a>Pan de molde</a></label>
+				</div>
+				<div class="product-item" category="veganos">
+					<img src="imag/veganos/bolillo.jpg" alt="" >
+				<label for="mostrar21"><a>Bolillo</a></label>
+				</div>
+				<div class="product-item" category="tradicionales">
+					<img src="imag/Tradicional/bigote.png" alt="" >
+				<label for="mostrar22"><a>Bigote</a></label>
+				</div>
+				<div class="product-item" category="saludables">
+					<img src="imag/gluten/focaccia.jpg" alt="" >
+				<label for="mostrar23"><a>Focaccia</a></label>
+				</div>
+				<div class="product-item" category="veganos">
+					<img src="imag/veganos/pan_burguer.jpg" alt="" >
+				<label for="mostrar24"><a>Pan de hamburguesa</a></label>
+				</div>
+				<div class="product-item" category="tradicionales">
+					<img src="imag/Tradicional/pandepulque.jpg" alt="" >
+				<label for="mostrar25"><a>Pan de Pulque</a></label>
+				</div>
+				<div class="product-item" category="saludables">
+					<img src="imag/gluten/chipa.jpg" alt="" >
+				<label for="mostrar26"><a>Chipá</a></label>
+				</div>
+		</section>
+	</div>
+</div>
+<!-- Sección de información de panes -->
+<main>
+ 	<input type="radio" id="mostrar-modal" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> El artesano mezcla la cantidad perfecta de ingredientes y cuece el pan usando la temperatura idónea del horno para crear un producto crujiente y tierno. Algunas variedades de pan artesano tienen un sabor ligero y dedicado, mientras que otros pueden tener un sabor más pronunciado. Esto depende de los ingredientes y técnicas de preparación usadas. </p>
+    <img src="imag/veganos/pan_artesano.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 2 -->
+
+<main>
+ 	<input type="radio" id="mostrar2" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> El pan representa un cadáver, la bolita que se encuentra en la parte superior es un cráneo y las cuatro canillas son los huesos del cuerpo que señalan las direcciones del universo. Pueden ser azucarados, espolvoreados con ajonjolí, azucarado de la Mixteca (le confiere un color rojo), con ralladura de naranja o vainilla, entre otras variantes dependiendo de la región donde se fabrique. </p>
+    <img src="imag/Tradicional/pandemuerto.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+<!-- MODAL 3 -->
+<main>
+ 	<input type="radio" id="mostrar3" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Ingredientes <br>	<br>
+500 grs harina de pastel de vainilla
+3 huevos
+1/2 taza leche
+1/2 taza agua
+1/3 de taza de aceite
+6 mazapanes grandes
+<br> <br>
+Pasos <br>	
+Revolver la harina con el mazapán <br>
+Echar la harina en un bol y poner el huevo, la leche y agua, y aceite <br>
+Batir todo muy bien <br>
+Y engrasar el molde y agregar la mezcla <br>
+Meter al horno a 180 grados por 45 minutos y depende de cada horno, introduce un palillo si sale limpio ya está listo <br> </p>
+    <img src="imag/azucar/azucar1.jpg" style="width: 14%; height: auto; position: absolute; margin-top: 25%; margin-left: 80%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 4 -->
+
+<main>
+ 	<input type="radio" id="mostrar4" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Armar una corona con la masa de 400 g de la segunda mezcla, colocar una cucharada de polvo de leudar, una de aceite común, una taza chica de agua, una pizca de sal y una cucharadita de gel de mandioca. Luego, añadir de forma envolvente 2 claras batidas a punto nieve con una cucharada de azúcar. </p>
+    <img src="imag/gluten/pan_forma.jpg"  style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 5 -->
+
+<main>
+ 	<input type="radio" id="mostrar5" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Con una masa muy ligera y esponjosa a base de harina de trigo, sal y levadura, se cuece al horno una porción cilíndrica con algunos cortes en la parte superior que da lugar a la barra de pan común o pistola que podemos encontrar en cualquier tienda. La masa se ha dejado reposar y crecer y posteriormente crecerá más en el horno. Es muy barato y rápido de producir, por eso es tan popular. </p>
+    <img src="imag/veganos/barra de pan.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 6 -->
+
+<main>
+ 	<input type="radio" id="mostrar6" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Este producto es de los favoritos por las familias mexicanas, para cualquier tarde acompañado de un café o vaso de leche. Este bollo de pan dulce es elaborado de harina de trigo, agua o leche, azúcar, mantequilla, huevos, levadura y sal. Tiene una cubierta de pasta de azúcar, que está hecha de harina, azúcar y manteca. En ocasiones la cubierta puede ser de chocolate o de vainilla.</p>
+    <img src="imag/Tradicional/concha.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 7 -->
+
+<main>
+ 	<input type="radio" id="mostrar7" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Este pan es especial, para cualquier persona que no quiere o no puede consumir harina de trigo. Especial para acompañar el desayuno o la merienda.</p>
+    <img src="imag/azucar/PAN DE ARROZ.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 8 -->
+
+<main>
+ 	<input type="radio" id="mostrar8" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Unir 100 ml de crema de leche, 2 yemas, una cucharadita de polvo de leudar, otra de sal, 2 cucharadas de queso rallado y 60 g de la primera mezcla. Luego, agregarle 5 claras batidas a punto nieve con una cucharada de azúcar. Colocar la masa en una budinera enmantecada y lllevar al horno por 25 minutos. ¡Para chuparse los dedos!</p>
+    <img src="imag/gluten/liviano.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 9 -->
+
+<main>
+ 	<input type="radio" id="mostrar9" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Es un pan con forma de donut (con agujero enmedio) cuya tradición procede del Este de Europa, donde era muy común en las casas judías.
+Antes de cocer estos panes, se les suele poner peso encima durante un rato para que no crezcan demasiado  durante la cocción. Se suelen utilizar muchos tipos de harina, aunque la que más es la harina de trigo blanca normal o la integral.
+Algunos bagels son planos y otros tienen muchos añadidos, como trocitos de cebolla, ajo, frutas, verduras, semillas, hierbas, especias o sal gorda.
+</p>
+    <img src="imag/veganos/bagel.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 32%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 10 -->
+
+<main>
+ 	<input type="radio" id="mostrar10" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Al hervir la leche recién ordeñada, se crea en la parte superior una película gruesa y amarilla que recibe el nombre de nata. Con la nata se elabora uno de los panes más tradicionales de México, y que por su consistencia suave y su azúcar glas espolvoreada se disfruta más con café de olla.
+</p>
+    <img src="imag/Tradicional/panque-de-nata.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 11 -->
+
+<main>
+ 	<input type="radio" id="mostrar11" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> *Ingredientes*<br>	
+Masa de pan dulce🍞<br>
+Relleno:<br>
+250 grs. De quinotos en almíbar cortados por la mitad<br>
+250 grs. De mamon en almíbar cortados en trocitos<br>
+200 grs. De nueces<br>
+Cobertura de dulce de leche🥞🍯<br>
+*Pasos*	<br>
+Una vez que levo la masa, desgasificarla y añadirle los dulces y las nueces.<br>
+Amasar bien, formar bollos y ponerlos en los moldes. Dejar levar hasta que triplique su volumen.<br>
+Cocinar en horno a 180° entre 30 y 40 minutos.
+</p>
+    <img src="imag/azucar/criollo.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 25%; margin-left: 70%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 12 -->
+
+<main>
+ 	<input type="radio" id="mostrar12" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> En un bol, unir 25 g de levadura fresca diluida en agua tibia, 20 g de manteca blanca, una pizca de sal y otra de azúcar con un chorro de agua gasificada y 300 ml de agua tibia. Amasar bien y dejar que el bollo repose en un lugar cálido por 40 minutos. Cocinar en horno precalentado a 200° hasta que se dore.
+</p>
+    <img src="imag/gluten/aireado.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 13 -->
+
+<main>
+ 	<input type="radio" id="mostrar13" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> La baguette es un tipo de barra de pan con levadura procedente de Francia. El nombre significa algo así como “pequeño bastón”, por su forma.
+Con este nombre se conocen varios panes que tienen en común esta forma, pero que pueden proceder de distintas zonas.
+La masa de la baguette francesa se suele hacer con harina de trigo y tiene una miga esponjosa y elástica cubierta de una corteza fina, tostada y crujiente. Con esta misma masa se hacen otros panes con formas diferentes.
+</p>
+    <img src="imag/veganos/baguette.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 32%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 14 -->
+
+<main>
+ 	<input type="radio" id="mostrar14" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Recibe su nombre porque las dos partes que componen al pan se unen por medio de una mermelada, simulando un beso. La masa horneada se revuelve en crema y azúcar. La mermelada varía de acuerdo al lugar donde se elabore pero tradicionalmente es de fresa y suele espolvorearse con ralladura de coco.
+</p>
+    <img src="imag/Tradicional/Besos.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 15 -->
+
+<main>
+ 	<input type="radio" id="mostrar15" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Ingredientes<br>	
+Masa de pan dulce o el que ustedes quieran, Relleno para el pan dulce arrollado, 5 cdas cacao amargo, 100 gr manteca derretida, 2 cdas miel, 2 yemas, Dulce de leche repostero c/n <br>
+Pasos<br>	
+Hacer la masa del pan dulce mientras leva el bollo hacer el relleno, mezclar la manteca derretida con la miel.<br>
+Agregar las yemas mezclar e incorporar el cacao amargo. <br>
+Mezclar bien enfriar en la heladera mientras leva el bollo de masa, luego desgasificar el bollo estirar con las manos en forma rectangular y untar con el relleno de cacao.<br>
+</p>
+    <img src="imag/azucar/arrollado.jpg" style="width: 15%; height: auto; position: absolute; margin-top: 25%; margin-left: 82%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 16 -->
+
+<main>
+ 	<input type="radio" id="mostrar16" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Disolver medio sobre de levadura en 50 ml de leche tibia y agregarle un poco de harina. Sumar 2 yemas, una cucharadita de aceite de maíz, una de azúcar, una de sal, 30 g de manteca derretida fría, 100 ml de leche, 125 de la primera mezcla y 2 claras batidas a nieve. <br>
+    Dejar la preparación en la heladera por una hora y luego cocinar en una sartén como los panqueques o waffles. ¡Quedan deliciosos como canapés!
+</p>
+    <img src="imag/gluten/blinis.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 17 -->
+
+<main>
+ 	<input type="radio" id="mostrar17" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Es un pan suizo muy parecido a los panes blancos francés y alemán. Tiene forma de baguette pero con algunos cortes horizontales por la parte superior. La corteza es más gruesa y tostada.
+	Se usa igual que el francés o el alemán, como pan para bocadillos, para tostar, como tostadas, etc. También se sirve con vino o aceite de oliva.
+	</p>
+    <img src="imag/veganos/bangueli.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 18 -->
+
+<main>
+ 	<input type="radio" id="mostrar18" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> En la cultura Maya, el hombre y la mujer fueron hechos del maíz. Antes de la conquista se elaboraban tortitas de maíz para ofrendar a los dioses. Es con la llegada de los españoles que arriba el trigo y con su siembra se proliferan las recetas que se mezclaron con los ingredientes de las regiones. Este pan se elabora con maíz criollo, sus granos son perfectamente molidos aunque suelen encontrarse granos enteros esparcidos por el panque. Tiene leche condensada, vainilla y en ocasiones canela.
+	</p>
+    <img src="imag/Tradicional/pan-de-elote.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 35%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 19 -->
+
+<main>
+ 	<input type="radio" id="mostrar19" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Cada vez que se acerca el calor pensamos en hacer este postre. Además de ser la mejor versión de pan de dulce para las temperaturas que manejamos en el hemisferio sur durante navidad, te hace quedar como un campeón con todos los que lo prueban y hasta le sacás una sonrisa a la abuela antes del brindis.
+	</p>
+    <img src="imag/azucar/helado.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 20 -->
+
+<main>
+ 	<input type="radio" id="mostrar20" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Por un lado, disolver una cucharadita de miel, una cucharada de aceite neutro y 2 claras en 350 ml de agua. Por otro, juntar 500 g de la primera mezcla con un sobre de levadura seca, 2 cucharadas de queso rallado y una cucharadita de sal. Colocar ambas preparaciones en una batidora y batir por 5 minutos. <br>
+
+	Para que leude, colocar la masa en una budinera enmantecada y ponerla en una bolsa por 45 minutos. Procurá que esté cerca de una estufa o sobre el horno todavía caliente. Luego cocinar durante 30 minutos y... ¡listo!
+	</p>
+    <img src="imag/gluten/molde.jpg" style="width: 18%; height: auto; position: absolute; margin-top: 35%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 21 -->
+
+<main>
+ 	<input type="radio" id="mostrar21" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Pan mexicano hecho con una masa básica muy parecida a la de las baguettes francesa. El pan tiene una corteza blanda y con mucho sabor. Los bolillos se usan mucho para hacer tortas con aguacate, frijoles, jalapeños, lechuga, tomate y cebolla. Hay muchas versiones de este sandwich.
+	</p>
+    <img src="imag/veganos/bolillo.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 22 -->
+
+<main>
+ 	<input type="radio" id="mostrar22" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Es una especie de cuerno espolvoreado con azúcar. Recibe el popular nombre de bigote porque al morderlo se te impregna la azúcar dejando la forma de un bigote dulce. Pueden estar rellenos de cajeta, chocolate o sin relleno.
+	</p>
+    <img src="imag/Tradicional/bigote.png" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 23 -->
+
+<main>
+ 	<input type="radio" id="mostrar23" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Batir durante 5 minutos 500 g de la primera mezcla, 2 claras, 1 sobre de levadura seca disuelta en 360 ml de agua tibia, una cucharada de sal, 2 de queso rallado, 50 g de aceitunas negras sin carozo y 50 g de tomates secos hidratados en juliana. <br>
+
+	Colocar en un molde rectangular y dejar leudar durante una hora preferentemente en un lugar cálido. Hundir los dedos en algunos lugares de la masa, espolvorear con sal gruesa, aceite de oliva y ramas de romero. Dorar en un horno precalentado a 180°. ¡Y a comer!
+	</p>
+    <img src="imag/gluten/focaccia.jpg" style="width: 18%; height: auto; position: absolute; margin-top: 35%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 24 -->
+
+<main>
+ 	<input type="radio" id="mostrar24" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Es un tipo de pan redondo muy esponjoso con la corteza casi tan tierna como la miga y que se usa para hacer hamburguesas. Se suele vender ya preparado y con semillas de sésamo por encima. Se prepara con harina de trigo blanca.
+	</p>
+    <img src="imag/veganos/pan_burguer.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 25 -->
+
+<main>
+ 	<input type="radio" id="mostrar25" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Este pan tiene origen en Saltillo. Y se creó por la necesidad de crear un producto que ayudará a mantener el frío a raya, esto gracias a las calorías que aporta. Está hecho a base de trigo y de pulque, este último ingrediente es útil como conservador natural. Se se le agrega azúcar, piloncillo y canela.
+	</p>
+    <img src="imag/Tradicional/pandepulque.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 30%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+<!-- MODAL 26 -->
+
+<main>
+ 	<input type="radio" id="mostrar26" name="modal"/>
+  <input type="radio" id="cerrar-modal" name="modal"/>
+  <label for="cerrar-modal"><a >X</a></label>
+  <div id="modal">
+    <p> Unir 500 g de fécula de mandioca con 10 g de polvo de leudar, 150 g de queso por salut, 150 g de queso tipo Mar del Plata, 2 huevos, 100g de manteca derretida, 200 ml de leche y 1 cucharada de sal. Dejar descansar 10 minutos, hacer bollitos y cocinar en un horno a 180 ° por 20 minutos. <br>
+
+Si sos una celíaca de buen comer, como yo, te recomiendo acompañarlos con una feta de jamón crudo y un poco de orégano o romero en la prepación. ¡Deliciosos!
+	</p>
+    <img src="imag/gluten/chipa.jpg" style="width: 20%; height: auto; position: absolute; margin-top: 32%; margin-left: 40%; box-shadow: 1px 8px 8px white; border-radius: 10px; ">
+  </div>
+</main>
+
+
+<!-- sección del pié de página -->
+ <footer> 
+       <div class="container-footer-all">
+        
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mas información de la compañia</h1>
+
+                    <p style="text-align: justify;">Esta compañía se dedica a la producción y ventas de panes de distintos tipos, pan vegano, pan tradicional, variable de endulzantes y libre de gluten con los mejores productos de la región.</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row" class="social-network-container">
+                        <a href="https://www.facebook.com/panaderiayreposteriakpan/" target="_blank"><img src="icon/facebook.png">
+                        <h2 style=" margin-top: -25px;margin-left: 40px;color: #C7C7C7;">Siguenos en Facebook</h2></a>
+                    </div>
+                    <div class="row" class="social-network-container">
+                       <a href="https://www.instagram.com/panaderiak_pan/?hl=es-la" target="_blank"> <img src="icon/instagram.png">
+                        <h2 style=" margin-top: -25px;margin-left: 40px;color: #C7C7C7;">Siguenos en Instagram</h2></a>
+                    </div>
+                  
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Información De Contacto</h1>
+
+                    <div class="row2">
+                        <img src="icon/house.png">
+                        <h2 style="margin-top: 0px;margin-left: 20px;max-width: 140px;">Ocosingo Chiapas,
+					 México
+					 Siglo XXI 
+					 Casa # 27</h2>
+                    </div>
+
+                    <div class="row2">
+
+                        <img src="icon/contact.png">
+                         <h2 style="margin-top: 10px;margin-left: 20px;max-width: 140px;">ventaskpan@gmail.com</h2>
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <div class="container-footer">
+               <div class="footer">
+                    <div class="copyright">
+                        © 2019 Todos los Derechos Reservados | <a href="">GagnsterSoft</a>
+                    </div>
+
+                    <div class="information">
+                        <a href="">Información Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                    </div>
+                </div>
+
+            </div>        
+    </footer>
+</div>
+</div>
+</body>
+</html>

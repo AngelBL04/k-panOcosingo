@@ -1,0 +1,118 @@
+/*aqui empieza el slider de imagenes*/
+body{
+    background-image: url(../imag/fondo_vino.jpg);
+    }
+    /*estilos para darle animación al slider de la página de inicio*/
+.slider {
+	top: 50%;
+	padding: 0%;	
+    overflow: hidden;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+/*este código hace el cambio de imagen en el slider de la página de inicio
+cada 15 segundos*/ 
+	animation: cambio 15s infinite alternate;
+	animation-timing-function: ease-in;
+}
+.slider li {
+	list-style: none;
+	width: 100%;
+	
+}
+.slider img {
+
+	margin-top: 130px;
+	width: 100%;
+	height: 85%;
+	margin-left: 0px;
+}
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.contenedor {
+display: block;
+margin-right: auto;
+margin-left: auto;
+overflow: hidden;
+position:relative; 
+top:50px; 
+width: 620px; 
+height:450px; 
+max-width: 100%;
+background:url("../icon/ind.jpg"); 
+background-size:100% 100%;
+ color:#fff;
+ font-family: 'verdana';
+} 
+
+.contenedor h1{
+ margin: 100px 0px 0px 40px;
+ position:absolute; 
+ left:0px;
+ top:0px; 
+ transform:translateX(-120%);
+ transition:all .5s ease;
+ color: #fff;
+} 
+.contenedor h4{
+ margin: 90px 0px 0px 40px;
+ position:absolute; 
+ left:0px;
+ top:150px; 
+ transform:translateX(180%); 
+ transition:all .4s ease;  
+ color: #fff;
+} 
+
+.contenedor:before{ 
+position: absolute;
+top:400px; 
+left:20px;
+content:""; 
+width:0%; 
+height:3px; 
+background:#fff;
+transition:all .3s ease;
+} 
+.contenedor:after{ 
+ position: absolute; 
+ top:40px; 
+ right:20px; 
+ content:""; 
+ width:0%; 
+ height:3px; 
+ background:#fff;
+  transition:all .3s ease;
+  } 
+
+.contenedor:hover:before{ 
+ width: 90%;
+  }
+.contenedor:hover:after {
+    width: 90%;
+  }
+ .contenedor:hover h1,.contenedor:hover h4{
+ transform:translateX(0%); 
+ transition:all .3s ease;
+  }
+.contenedor:hover{
+ background-size: 110% 110%;
+ transition:all .5s ease;
+ cursor: pointer;

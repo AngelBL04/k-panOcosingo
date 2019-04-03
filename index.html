@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>K´PAN</title>
+  <meta charset="utf-8">
+  <!-- código para ayudar a ser responsive la página -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimun-scale=1">
+  <!-- estilos que utliza la página de inicio -->
+	<link rel="stylesheet" href="boostrap/estilos.css">
+	<link rel="stylesheet" href="boostrap/bootstrap.css">
+	<link rel="stylesheet" href="boostrap/footer.css">
+  <link rel="stylesheet" href="boostrap/hover.css">	
+  <link rel="stylesheet" href="boostrap/menuR.css"> 
+  <!-- link que llama al icono de menu desde la página fontastic -->
+  <link href="https://file.myfontastic.com/bEBhqgK4EyfQKd4hSC4atH/icons.css" rel="stylesheet">
+</head>
+<body>
+<div id="my-page">
+  <div id="my-page">
+    <div id="home"></div>
+     <!-- primer Menú que servira para la página normal y en tamaño de tableta  -->
+    <div class="header">
+      <div class="container">
+        <div class="logo"><a href="index.html"><img src="icon/logo_white.png"></a></div>
+        <div class="menu-container">
+          <div class="menu"><a href="index.html" style="color:#ff8acb; text-decoration-line: underline;">Inicio</a></div>
+          <div class="menu"><a href="quienes_somos.html">Quienes somos</a></div>
+          <div class="menu"><a href="productos.html">Productos</a></div>
+          <div class="menu"><a href="contacto.html">Contacto</a></div>
+          <div class="menu"><a href="ubicacion.html">Ubicación</a></div>
+        </div>
+        <!-- Segundo menú que sirve para el que se visualizara en dispositivos moviles -->
+         <header class="header-2">
+      <div class="contenedorM">
+        <span class="icon-menu" id="btn-menu"></span>
+        <nav class="nav" id="nav">
+          <ul class="menu2">
+            <li class="menu_item"><a class="menu_link" href="index.html">Inicio</a></li>
+            <li class="menu_item"><a class="menu_link" href="quienes_somos.html">¿Quienes somos?</a></li>
+            <li class="menu_item"><a class="menu_link" href="productos.html">Productos</a></li>
+            <li class="menu_item"><a class="menu_link" href="contacto.html">Contacto</a></li>
+             <li class="menu_item"><a class="menu_link" href="ubicacion.html">Ubicación</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script src="js/menu.js"></script>
+    <!-- iconos para las redes sociales -->
+        <div class="social-network-container">
+          <a href="https://www.facebook.com/panaderiayreposteriakpan/" target="_blank"><img src="icon/fb_white.png"></a>
+          <a href="https://www.instagram.com/panaderiak_pan/?hl=es-la" target="_blank"><img src="icon/instagram_white.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- imagenes que sirven para el carrusel -->
+   <div class="slider">
+   	<ul>
+   		<li><img src="icon/carru1.jpg"></li>
+   		<li><img src="icon/carru2.jpg"></li>
+   		<li><img src="icon/carru3.jpg"></li>
+   		<li><img src="icon/carru4.jpg"></li>
+   	</ul>
+   </div>
+
+   <!-- Titulo para direccionar al ususario a las demas páginas del sitio web -->
+  <h1 class="title" style="text-shadow: 5px 3px 2px black;">Descubre nuestra variedad de productos</h1>
+  <!-- conjunto de imagenes que ayudan a direccionar al usuario a las diferentes páginas del sitio web -->
+    <div class="container_hover">
+         <a href="productos.html"> <div class="card" style="box-shadow: 1px 8px 8px white;">
+            <img src="imag/hover/aniver.jpg">
+            <h4>Momentos especiales</h4>
+            <p>Para nosotros es muy importante tu felicidad, por ello te acompañamos en esos momentos. </p>
+            <a href="productos.html"><< Más productos >></a>
+        </div></a>
+        
+        <a href="productos.html"><div class="card" style="box-shadow: 1px 8px 8px white;">
+            <img src="imag/hover/cafetera.jpg">
+            <h4>Disfruta tu café</h4>
+            <p>A cualquier hora podras disfrutar el delicioso sabor de nuestro pán.</p>
+            <br>
+            <a href="productos.html"><< Más productos >></a>
+        </div></a>
+        
+       <a href="ubicacion.html"> <div class="card" style="box-shadow: 1px 8px 8px white;">
+            <img src="imag/hover/pan_pan.jpg">
+            <h4>Deliciosos panes</h4>
+            <p>¡Ven y conocenos!</p>
+            <br>
+            <br> 
+            <a href="ubicacion.html"><< Ubicación >></a>
+        </div></a>
+        
+    </div>    
+    <br>
+    <br>
+   <!-- aqui empieza todo el contenido del pie de página, como la seccion de la información de la empresa, información de contacto y redes sociales-->
+    <footer> 
+       <div class="container-footer-all">
+        
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mas información de la compañia</h1>
+
+                    <p style="text-align: justify;">Esta compañía se dedica a la producción y ventas de panes de distintos tipos, pan vegano, pan tradicional, variable de endulzantes y libre de gluten con los mejores productos de la región.</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row" class="social-network-container">
+                        <a href="https://www.facebook.com/panaderiayreposteriakpan/" target="_blank"><img src="icon/facebook.png">
+                        <label>Siguenos en Facebook</label></a>
+                    </div>
+                    <div class="row" class="social-network-container">
+                       <a href="https://www.instagram.com/panaderiak_pan/?hl=es-la" target="_blank"> <img src="icon/instagram.png">
+                        <label>Siguenos en Instagram</label></a>
+                    </div>
+                  
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Información De Contacto</h1>
+
+                    <div class="row2">
+                        <img src="icon/house.png">
+                        <label>Ocosingo Chiapas,
+					 México
+					 Siglo XXI 
+					 Casa # 27</label>
+                    </div>
+
+                    <div class="row2">
+
+                        <img src="icon/contact.png">
+                         <label><a href="contacto.html" style="text-decoration:none; color: white;">ventaskpan@gmail.com</a></label>
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <div class="container-footer">
+               <div class="footer">
+                    <div class="copyright">
+                        © 2019 Todos los Derechos Reservados | <a href="">GagnsterSoft</a>
+                    </div>
+
+                    <div class="information">
+                        <a href="">Información Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                    </div>
+                </div>
+
+            </div>        
+    </footer>
+  </div>
+</div>
+</body>
+</html>

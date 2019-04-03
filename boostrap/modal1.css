@@ -1,0 +1,717 @@
+
+h2 {
+    font-size: 1.1em;
+    margin-top: 2em;
+  text-align: center;
+}
+main {
+    width: 80%;
+    margin: auto;
+}
+main {
+  width: 80%;
+  margin: auto;
+}
+label:hover{
+    background: white;
+}
+
+#modal {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  position: fixed;
+  top: -200vh;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+}
+#modal p {
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5em;
+  text-align: center;
+  text-align: justify;
+}
+
+#mostrar-modal {
+  display: none;
+}
+#mostrar-modal + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar-modal + label:hover {
+  background: #38678f;
+}
+#mostrar-modal:checked ~ #modal {
+  top: 0;
+}
+#mostrar-modal:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+#cerrar-modal {
+  display: none;
+}
+#cerrar-modal + label {
+  position: absolute;
+  top: 10em;
+  right: 1em;
+  z-index: 100;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  background: tomato;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  display: none;
+  transition: all .5s;
+  position: fixed;
+}
+#cerrar-modal:checked ~ #modal {
+  top: -100vh;
+}
+#cerrar-modal:checked + label {
+  display: none;
+}
+
+
+
+/*---------------------Modal2 ---------------------*/
+#mostrar2 {
+  display: none;
+}
+#mostrar2 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar2 + label:hover {
+  background: #38678f;
+}
+#mostrar2:checked ~ #modal {
+  top: 0;
+}
+#mostrar2:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal3 ---------------------*/
+#mostrar3 {
+  display: none;
+}
+#mostrar3 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar3 + label:hover {
+  background: #38678f;
+}
+#mostrar3:checked ~ #modal {
+  top: 0;
+}
+#mostrar3:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal4 ---------------------*/
+#mostrar4 {
+  display: none;
+}
+#mostrar4 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar4 + label:hover {
+  background: #38678f;
+}
+#mostrar4:checked ~ #modal {
+  top: 0;
+}
+#mostrar4:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal5 ---------------------*/
+#mostrar5 {
+  display: none;
+}
+#mostrar5 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar5 + label:hover {
+  background: #38678f;
+}
+#mostrar5:checked ~ #modal {
+  top: 0;
+}
+#mostrar5:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal6 ---------------------*/
+#mostrar6 {
+  display: none;
+}
+#mostrar6 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar6 + label:hover {
+  background: #38678f;
+}
+#mostrar6:checked ~ #modal {
+  top: 0;
+}
+#mostrar6:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal7 ---------------------*/
+#mostrar7 {
+  display: none;
+}
+#mostrar7 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar7 + label:hover {
+  background: #38678f;
+}
+#mostrar7:checked ~ #modal {
+  top: 0;
+}
+#mostrar7:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal8 ---------------------*/
+#mostrar8 {
+  display: none;
+}
+#mostrar8 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar8 + label:hover {
+  background: #38678f;
+}
+#mostrar8:checked ~ #modal {
+  top: 0;
+}
+#mostrar8:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal9 ---------------------*/
+#mostrar9 {
+  display: none;
+}
+#mostrar9 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar9 + label:hover {
+  background: #38678f;
+}
+#mostrar9:checked ~ #modal {
+  top: 0;
+}
+#mostrar9:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal10 ---------------------*/
+#mostrar10 {
+  display: none;
+}
+#mostrar10 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar10 + label:hover {
+  background: #38678f;
+}
+#mostrar10:checked ~ #modal {
+  top: 0;
+}
+#mostrar10:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal11 ---------------------*/
+#mostrar11 {
+  display: none;
+}
+#mostrar11 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar11 + label:hover {
+  background: #38678f;
+}
+#mostrar11:checked ~ #modal {
+  top: 0;
+}
+#mostrar11:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal12 ---------------------*/
+#mostrar12 {
+  display: none;
+}
+#mostrar12 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar12 + label:hover {
+  background: #38678f;
+}
+#mostrar12:checked ~ #modal {
+  top: 0;
+}
+#mostrar12:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal13 ---------------------*/
+#mostrar13 {
+  display: none;
+}
+#mostrar13 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar13 + label:hover {
+  background: #38678f;
+}
+#mostrar13:checked ~ #modal {
+  top: 0;
+}
+#mostrar13:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal14 ---------------------*/
+#mostrar14 {
+  display: none;
+}
+#mostrar14 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar14 + label:hover {
+  background: #38678f;
+}
+#mostrar14:checked ~ #modal {
+  top: 0;
+}
+#mostrar14:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal15 ---------------------*/
+#mostrar15 {
+  display: none;
+}
+#mostrar15 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar15 + label:hover {
+  background: #38678f;
+}
+#mostrar15:checked ~ #modal {
+  top: 0;
+}
+#mostrar15:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal16 ---------------------*/
+#mostrar16 {
+  display: none;
+}
+#mostrar16 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar16 + label:hover {
+  background: #38678f;
+}
+#mostrar16:checked ~ #modal {
+  top: 0;
+}
+#mostrar16:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+/*---------------------Modal17 ---------------------*/
+#mostrar17 {
+  display: none;
+}
+#mostrar17 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar17 + label:hover {
+  background: #38678f;
+}
+#mostrar17:checked ~ #modal {
+  top: 0;
+}
+#mostrar17:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+/*---------------------Modal18 ---------------------*/
+#mostrar18 {
+  display: none;
+}
+#mostrar18 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar18 + label:hover {
+  background: #38678f;
+}
+#mostrar18:checked ~ #modal {
+  top: 0;
+}
+#mostrar18:checked ~ #cerrar-modal + label {
+  display: block;
+}
+/*---------------------Modal19 ---------------------*/
+#mostrar19 {
+  display: none;
+}
+#mostrar19 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar19 + label:hover {
+  background: #38678f;
+}
+#mostrar19:checked ~ #modal {
+  top: 0;
+}
+#mostrar19:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+/*---------------------Modal19 ---------------------*/
+#mostrar20 {
+  display: none;
+}
+#mostrar20 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar20 + label:hover {
+  background: #38678f;
+}
+#mostrar20:checked ~ #modal {
+  top: 0;
+}
+#mostrar20:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+/*---------------------Modal19 ---------------------*/
+#mostrar21 {
+  display: none;
+}
+#mostrar21 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar21 + label:hover {
+  background: #38678f;
+}
+#mostrar21:checked ~ #modal {
+  top: 0;
+}
+#mostrar21:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+/*---------------------Modal22 ---------------------*/
+#mostrar22 {
+  display: none;
+}
+#mostrar22 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar22 + label:hover {
+  background: #38678f;
+}
+#mostrar22:checked ~ #modal {
+  top: 0;
+}
+#mostrar22:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+/*---------------------Modal23 ---------------------*/
+#mostrar23 {
+  display: none;
+}
+#mostrar23 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar23 + label:hover {
+  background: #38678f;
+}
+#mostrar23:checked ~ #modal {
+  top: 0;
+}
+#mostrar23:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+/*---------------------Modal24 ---------------------*/
+#mostrar24 {
+  display: none;
+}
+#mostrar24 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar24 + label:hover {
+  background: #38678f;
+}
+#mostrar24:checked ~ #modal {
+  top: 0;
+}
+#mostrar24:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+/*---------------------Modal25 ---------------------*/
+#mostrar25 {
+  display: none;
+}
+#mostrar25 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar25 + label:hover {
+  background: #38678f;
+}
+#mostrar25:checked ~ #modal {
+  top: 0;
+}
+#mostrar25:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+/*---------------------Modal26 ---------------------*/
+#mostrar26 {
+  display: none;
+}
+#mostrar26 + label {
+  background: steelblue;
+  display: table;
+  margin: auto;
+  color: #fff;
+  line-height: 3;
+  padding: 0 1em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#mostrar26 + label:hover {
+  background: #38678f;
+}
+#mostrar26:checked ~ #modal {
+  top: 0;
+}
+#mostrar26:checked ~ #cerrar-modal + label {
+  display: block;
+}
+
+@media (max-width: 1200px){
+	#modal{
+		width: 100%;
+		max-width: none;
+		
+		margin-left: 0;
+	}
+	#modal p {
+  width: 90%;
+  height: 40%;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1em;
+  text-align: center;
+  text-align: justify;
+  margin-top: 50%;
+}
+    #modal img{
+	margin-top: 100px;
+	display: none;
+    }
+}
+
+
+@media (max-width: 1200px) and (min-width: 768px){
+#modal p {
+ 
+  margin-top: 30%;
+}
+
+  }
+
+

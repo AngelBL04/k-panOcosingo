@@ -1,0 +1,143 @@
+/*Hoja de estilos del menu de todas las páginas del sitio*/
+/*propiedades del cuerpo del menú*/
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans', sans-serif;
+}
+/* header es la clase del contenedor de todo el menú*/
+.header {
+  text-align: center;
+  /*background: #a3bfbb;*/
+  background: #5e2129;
+  padding: 15px 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.header:before,
+.header:after {
+  content: " ";
+  display: table;
+}
+.header:after {
+  clear: both;
+}
+.header:before,
+.header:after {
+  content: " ";
+  display: table;
+}
+.header:after {
+  clear: both;
+}
+.header .logo {
+
+ height: 100px;
+ width: 20%;
+ float: left;
+
+}
+/*medidas de la imagen (logo) de la empresa*/
+.header .logo img {
+  width: 220px;
+  height: 110px;
+}
+/*posicion y orientación de los items del menú*/
+.header .menu-container {
+  display: inline-block;
+  margin: 30px 0;
+  text-transform: uppercase;
+}
+.header .menu-container ul{
+  list-style: none;
+  padding-left:0;
+}
+.header .menu-container > div {
+  display: inline-block;
+}
+.header .menu-container > div a {
+  color: #eef9f3;
+  padding: 2px 13px;
+}
+.header .menu-container > div a:hover {
+  /*color: #b9252b;*/
+  color:  #ff8acb;
+ 
+}
+#trigger {
+  width: 45px;
+  display: block!important;
+  position: relative;
+  height: 45px;
+  float: right;
+  display: none;
+}
+#trigger:before {
+  top: 10px;
+}
+#trigger span {
+  top: 20px;
+}
+#trigger:after {
+  top: 30px;
+}
+#trigger span,
+#trigger:after,
+#trigger:before {
+  background: #4a2918;
+  content: '';
+  display: block;
+  width: 30px;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  -webkit-transition: none .5s ease .5s;
+  transition: none .5s ease .5s;
+  -webkit-transition-property: transform, top, bottom, left, opacity;
+  transition-property: transform, top, bottom, left, opacity;
+}
+.header .social-network-container {
+  float: right;
+  margin: 30px 0;
+}
+.header .social-network-container > a {
+  padding: 0 5px;
+}
+.header .social-network-container > a img {
+  width: 20px;
+}
+/*Código que ayuda a que el menú se adapte a distintas medidas de pantalla*/
+@media (min-width: 993px) {
+  .menu-container #trigger {
+    display: none!important;
+  }
+  #mmenu {
+    display: none;
+    text-transform: uppercase;
+  }
+}
+@media (max-width: 992px) {
+  .menu{
+    display: none!important;
+  }
+  .header .menu-container:before,
+  .header .menu-container:after {
+    content: " ";
+    display: table;
+  }
+  .header .menu-container:after {
+    clear: both;
+  }
+  .header .menu-container{
+    margin: 15px 0;
+    float: right;
+  }
+  .header .social-network-container{
+    float: none;
+    margin-left: 230px;
+  }
+  .category-container  h2{
+    font-size: 10em;
+  }

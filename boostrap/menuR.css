@@ -1,0 +1,78 @@
+/* estos son los estilos que se utilizan en el menú responsive para aparatos moviles*/
+@media (max-width: 800px) {
+body{
+	font-family: 'Open Sans', sans-serif
+}
+img{
+	display: block;
+	max-width: 100%;
+}
+.header{
+	height: 130px;
+}
+.header-2{
+  display: block;
+}
+.header-2{
+	height: 30px;
+}
+.header-2 .contenedorM{
+	display: flex;
+	justify-content: space-between;
+}
+.logo2, .icon-menu{
+	margin:5px;
+}
+/*propiedades y estilos del icono del menu responsive*/
+.icon-menu {
+	display: block;
+	width: 50px;
+	height: 35px;
+	font-size: 30px;
+	background: #FBA919;
+	color: #fff;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 5px;
+	margin-left:  240px;
+	cursor: pointer;
+	margin-top: -18px;
+	background: rgba(0,0,0,0.4);
+
+}
+/*posición y orientación del segundo menú que se utilizará en dispositivos moviles*/
+.nav{
+	position: absolute;
+	top: 0px;
+	left: -100%;
+	width: 50%;
+	transition: all 0.4s;
+
+	
+}
+.menu2{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	box-shadow: 2px 4px 4px white;
+}
+/*darle color al texto dentro del menú*/
+.menu_link{
+	display: block;
+	padding: 5px;
+	background: #5e2129;
+	color: #eef9f3;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px white;
+	
+}
+/* color que obtendra el menú cuando el mause pase encima de el*/
+.menu_link:hover{
+	background: white;
+	color: #FBA919;
+}
+/*clase que manda a llamar desde javaScript el archivo menu.js*/
+.mostrar {
+	left: 0;
+}
+}

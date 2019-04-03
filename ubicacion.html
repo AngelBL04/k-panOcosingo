@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <!-- Esta es la página que ayudara al usuario a visualizar la dirección de la empresa con la ayuda de un mapa de googleMaps-->
+	<title>Ubicación</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimun-scale=1">
+    <!-- Estilos css que esta utilizando esta página-->
+	<link rel="stylesheet" href="boostrap/bootstrap.css">
+	<link rel="stylesheet" href="boostrap/ubicacion.css">
+	
+    <link rel="stylesheet" href="boostrap/menuR.css">
+  <link href="https://file.myfontastic.com/bEBhqgK4EyfQKd4hSC4atH/icons.css" rel="stylesheet">
+</head>
+<body>
+	<div id="my-page">
+    <div id="home"></div>
+    <!-- primer Menú que servira para la página normal y en tamaño de tableta  -->
+    <div class="header">
+      <div class="container">
+        <div class="logo"><a href="index.html"><img src="icon/logo_white.png"></a></div>
+        <div class="menu-container">
+          <div class="menu"><a href="index.html">Inicio</a></div>
+          <div class="menu"><a href="quienes_somos.html">Quienes somos</a></div>
+          <div class="menu"><a href="productos.html">Productos</a></div>
+          <div class="menu"><a href="contacto.html">Contacto</a></div>
+          <div class="menu"><a href="ubicacion.html" style="color: #ff8acb; text-decoration-line: underline;">Ubicación</a></div>
+        </div>
+        <!-- Segundo menú que sirve para el que se visualizara en dispositivos moviles -->
+         <header class="header-2">
+      <div class="contenedorM">
+        <span class="icon-menu" id="btn-menu"></span>
+        <nav class="nav" id="nav">
+          <ul class="menu2">
+            <li class="menu_item"><a class="menu_link" href="index.html">Inicio</a></li>
+            <li class="menu_item"><a class="menu_link" href="quienes_somos.html">¿Quienes somos?</a></li>
+            <li class="menu_item"><a class="menu_link" href="productos.html">Productos</a></li>
+            <li class="menu_item"><a class="menu_link" href="contacto.html">Contacto</a></li>
+             <li class="menu_item"><a class="menu_link" href="ubicacion.html">Ubicación</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <script src="js/menu.js"></script>
+    <!-- iconos para las redes sociales -->
+        <div class="social-network-container">
+          <a href="https://www.facebook.com/panaderiayreposteriakpan/" target="_blank"><img src="icon/fb_white.png"></a>
+          <a href="https://www.instagram.com/panaderiak_pan/?hl=es-la" target="_blank"><img src="icon/instagram_white.png"></a>
+        </div>
+      </div>
+    </div>
+    <!-- Código que ayuda a visualizar el mapa de google en la página de ubicación de la empresa k-pan -->
+    <div class="ubicacion">
+    	<h2>Ubicación de nuestra empresa</h2>
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3817.3822785853345!2d-92.09819718513033!3d16.906425088368557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85f2eb55b16af3ff%3A0x926d219abc67518a!2sPanader%C3%ADa+K&#39;PAN!5e0!3m2!1ses-419!2smx!4v1553390574242" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+<!-- aqui empieza todo el contenido del pie de página, como la seccion de la información de la empresa, información de contacto y redes sociales-->
+    <footer> 
+       <div class="container-footer-all">
+        
+            <div class="container-body">
+
+                <div class="colum1">
+                    <h1>Mas información de la compañia</h1>
+
+                    <p style="text-align: justify;">Esta compañía se dedica a la producción y ventas de panes de distintos tipos, pan vegano, pan tradicional, variable de endulzantes y libre de gluten con los mejores productos de la región.</p>
+
+                </div>
+
+                <div class="colum2">
+
+                    <h1>Redes Sociales</h1>
+
+                    <div class="row" class="social-network-container">
+                        <a href="https://www.facebook.com/panaderiayreposteriakpan/"><img src="icon/facebook.png">
+                        <label>Siguenos en Facebook</label></a>
+                    </div>
+                    <div class="row" class="social-network-container">
+                       <a href="https://www.instagram.com/panaderiak_pan/?hl=es-la"> <img src="icon/instagram.png">
+                        <label>Siguenos en Instagram</label></a>
+                    </div>
+                  
+
+
+                </div>
+
+                <div class="colum3">
+
+                    <h1>Información De Contacto</h1>
+
+                    <div class="row2">
+                        <img src="icon/house.png">
+                        <label>Ocosingo Chiapas,
+					 México
+					 Siglo XXI 
+					 Casa # 27</label>
+                    </div>
+
+                    <div class="row2">
+
+                        <img src="icon/contact.png">
+                        <label><a href="contacto.html" style="text-decoration:none; color: white;">ventaskpan@gmail.com</a></label>
+                    </div>
+
+                </div>
+
+            </div>
+        
+        </div>
+        
+        <div class="container-footer">
+               <div class="footer">
+                    <div class="copyright">
+                        © 2019 Todos los Derechos Reservados | <a href="">GagnsterSoft</a>
+                    </div>
+
+                    <div class="information">
+                        <a href="">Información Compañia</a> | <a href="">Privacion y Politica</a> | <a href="">Terminos y Condiciones</a>
+                    </div>
+                </div>
+
+            </div>        
+    </footer>
+
+</body>
+</html>

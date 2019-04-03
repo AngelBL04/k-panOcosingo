@@ -1,0 +1,257 @@
+/*Esta hoja de diseño es para la página de contacto.html*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	top: 0px;
+}
+/*propiedades del cuerpo de la página*/
+body{
+	background-image: url(../imag/1.jpg);
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: monospace;
+}
+
+.quienes{
+	width: 100%;
+	margin-top:  9%;
+	margin-left: 0;
+	height: 40%;
+	text-align: justify;
+}
+.quienes h2{
+	justify-content: center;
+	font-size:25px;
+	text-align: justify;
+	color: #fff;
+}
+.quienes h1{
+	justify-content: center;
+	font-size:50px;
+	text-align: justify;
+	text-align: center;
+	color: #fff;
+}
+.somos{
+	position: absolute;
+	margin-top: 20%;
+	margin-bottom: 10%;
+	max-width: 45%;
+	height: auto;
+	margin-left: 20px;
+	
+}
+.mision{
+	margin-top: 9.5%;
+	margin-left: 50%;
+	max-width: 45%;
+	height: 100%;
+
+}
+.vision{
+	margin-top: 10%;
+	margin-left: 50%;
+	max-width: 45%;
+	height: 100%;
+	margin-bottom: 5%;
+}
+
+/*Estilos del pie de página de todas las pásginas del sitio web*/
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+/*propiedades de todo el pie de página*/
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px;
+}
+/*propiedades del cuerpo del pie de página divididas por columnas*/
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 3px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1000px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    .container-footer-all{
+        margin-top: 0%;
+    }
+    
+    .colum1{
+        max-width: 100%;
+        margin-left: 10px;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+.container-footer-all{
+        margin-top: 144.5%;
+    }
+}
+
+	@media screen and (max-width: 425px){
+
+		.somos{
+			margin-top: 188%;
+			max-width: 100%;
+			margin-right: 0px;
+			margin-left: 0px;
+			background-color: rgba(0,0,0,0.9);
+		}
+		.vision{
+			max-width: 100%;
+			margin-right: 10px;
+			margin-left: 5px; 
+		}
+		.mision{
+			max-width: 100%;
+			margin-right: 10px;
+			margin-top: 30%;
+			margin-left: 5px;
+		}
+		.somos h2{
+		margin-left: 5px;
+		margin-right:10px;
+	}
+		.mision h1{
+			margin-top: 30%;
+		}
+		.container-footer-all{
+        margin-top: 102%;
+    }
+}
+
+
+
+@media  (max-width: 380px){
+	.somos{
+			margin-top: 217.5%;
+			max-width: 100%;
+			margin-right: 0px;
+			margin-left: 0px;
+			background-color: rgba(0,0,0,0.9);
+		}
+	.somos h2{
+		margin-left: 5px;
+		margin-right:10px;
+	}
+	.mision h1{
+			margin-top: 35%;
+		}
+
+		.container-footer-all{
+        margin-top: 144%;
+    }
+}
+
+
+
